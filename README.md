@@ -4,11 +4,13 @@ s3-parallel-put  Parallel uploads to Amazon AWS S3
 s3-parallel-put speeds the uploading of many small keys to Amazon AWS S3 by
 executing multiple PUTs in parallel.
 
+Updated to Python 3.x by [Robert Focke](https://github.com/shinroo)
+
 
 Dependencies
 ------------
 
-* Python 2.X
+* Python 3.X
 * [Boto](http://code.google.com/p/boto/)
 * [python-magic](https://github.com/ahupp/python-magic)
 
